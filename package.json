@@ -1,0 +1,24 @@
+{
+  "name": "template-astro-lp",
+  "type": "module",
+  "main": "main.js",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "astro": "^4.11.0",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6"
+  },
+  "volta": {
+    "node": "20.14.0"
+  }
+}
